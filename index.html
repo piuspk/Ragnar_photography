@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Work</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Charis+SIL&family=Cinzel&family=Lobster&family=Trispace&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<style>
+.bg{
+    background:url('https://i.postimg.cc/TPSXKBTK/pg.jpg');
+   
+    background-size: cover;
+    background-position: center;
+    height: 94vh;
+    width: 100%;
+   padding-top:30px;
+}
+.left{
+    display:inline-block;
+    position:absolute;
+    top:10;
+    left:25px;
+    /* border:black 2px solid; */
+}
+.bottom{
+    display:block;
+    position:absolute;
+    bottom:-2320px;
+    right:100px;
+    /* border:black 2px solid; */
+}
+.bottom1{
+    display:inline-block;
+    position:absolute;
+    bottom:80px;
+    left:500px;
+    /* border:black 2px solid; */
+}
+.bottom1 img{
+    width:170px;
+    height:110px;
+    border-radius:15px;
+    padding:1px 30px;
+    border:white 2px solid;
+}
+.bottom1 img:hover{
+    transform:scale(1.05);
+}
+.left img{
+    width:100px;
+    height:100px;
+    padding-left: 20px;
+    border-radius:10px;
+}
+.bottom img{
+    width:30px;
+    height:30px;
+    border-radius:15px;
+    padding:1px 13px;
+}
+.bottom img:hover{
+    background-color:rgb(96, 101, 157);
+}
+
+.left img div{
+    font-style:italic;
+}
+.mid{
+    display:block;
+    width:1100px;
+    margin:10px auto;
+    
+    font-family: 'Trispace', sans-serif;
+
+    position:absolute;
+    top:20px;
+    left:300px;
+
+    /* border:rgb(203, 3, 3) 2px solid */
+}
+.right{
+    display:inline-block;
+    position:absolute;
+    top:55px;
+    right:30px;
+    /* border:rgb(11, 34, 209) 2px solid */
+}
+.navbar li{
+    
+    display:inline-block;
+    font-size:20px;
+}
+.navbar{
+    margin:30px auto;
+    padding:20px;
+    
+}
+.navbar li a{
+    color:rgb(13, 0, 0);
+    text-decoration:none;
+    /* padding:30px 85px; */
+    padding-left: 60px;
+    margin-left:70px;
+    font-size:24px;
+    font-weight: bold;
+    
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration:underline;
+    /* font-size: 15px; */
+    color:rgb(115, 181, 208);
+
+}
+.btn{
+    padding:2px 20px;
+    margin-left:20px;
+    cursor:pointer;
+    border-radius:5px;
+    background-color:rgb(212, 212, 233);
+    font-size:15px;
+    
+}
+.btn:hover{
+    color:rgb(63, 100, 193);
+}
+.left div{
+    font-size:16px;
+    font-style:oblique;
+    font-weight:bold;
+    color:black;
+}
+h1{
+    position:absolute;
+    left:500px;
+    font-size:55px;
+    top:270px;
+    color:rgb(255, 255, 255);
+    font-family: 'Trispace', sans-serif;
+}
+h2{
+    font-family: 'Trispace', sans-serif;
+    position:absolute;
+    left:590px;
+    top:390px;
+    color:rgb(255, 255, 255);
+    font-size:27px;
+    
+}
+h3{
+    position:absolute;
+    left: 635px;
+    font-size:45px;
+    font-weight:normal;
+    top:520px;
+    color:rgb(255, 255, 255);
+    font-family: 'Trispace', sans-serif;
+    /* padding-left: 80px; */
+    
+
+}
+.stock{
+    width:80%;
+    margin:auto;
+    padding: 60px 15px;
+    box-sizing : border-box;
+    
+    /* display:inline-block; */
+}
+.row{
+    width:100%;
+    display:flex;
+    flex-flow:row wrap;
+    max-height: 1700px;
+    
+}
+.column{
+    width: 31.33%;
+    padding-bottom: 25px;
+    padding-left: 12px;
+    
+}
+.column img{
+    width:100%;
+    cursor: pointer;
+    height: 250px;
+    
+    
+    
+}
+.stock h2{
+    position:absolute;
+    left:195px;
+    
+    font-size:45px;
+    margin:450px 0;
+    color:black;
+}
+.column img:hover{
+    transform: scale(1.05);
+    transition: transform 200ms;
+}
+.stock a{
+    font-size: 45px;
+    position:absolute;
+    left:185px;
+    color:black;
+    font-weight:bold;
+    padding: 10px 20px;
+    font-family: 'Trispace', sans-serif;
+}
+.explore{
+    text-align:center;
+    display:block;
+    font-size:30px;
+     cursor:pointer;
+     width:90%;
+     max-width: 310px;
+     background-color:#7b91ce;
+     padding:10px 12px;
+     margin: 60px auto;
+     border-radius: 30px;
+     color:white;
+     transition: transform 390ms;
+}
+.explore:hover{
+    transform: scale(0.9);
+}
+.stock p{
+    font-size:25px;
+   
+    display:block;
+    padding-left: 1100px;
+    padding-top: 80px;
+    font-family:cursive;
+    text-decoration: underline;
+}
+
+</style>
+<body>
+  <div class="bg"> 
+
+    <!-- /* this is for our logo */ -->
+    <div class="left"> 
+        <img src="https://i.postimg.cc/1XvBt1ZT/pk.jpg">
+        <div>Ragnar photography</div>
+    </div>
+    <!-- /* this is for navigation bar */ -->
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="#" class = "active">Home</a></li>
+        <li><a href="#">Sign in</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /* this is for search bar or buttons */ -->
+    <div class="right">
+       <button class="btn">more</button>
+       <button class="btn">menu</button>
+    </div>
+    <div class="bottom">
+        
+        
+        <a href="https://www.instagram.com/piyushkr._1090/"><img src="https://i.postimg.cc/1X8npkqb/insta.png"></a>
+        <a href="https://www.facebook.com/profile.php?id=100009340407677"><img src="https://i.postimg.cc/yYJc9ZhW/fb.png"></a>
+        <a href="https://www.linkedin.com/in/piyush-kumar-519275227"><img src="https://i.postimg.cc/JhKGSr39/linkedin.png"></a>
+        
+    </div>
+    <div class="bottom1">
+        
+        <a href="images/dog.jpg"><img src="images/dog.jpg"></a>
+        <a href="images/sunset.jpg"><img src="images/sunset.jpg"></a>
+        <a href="images/fg.jpg"><img src="images/fg.jpg"></a>
+       
+        
+    </div>
+    <div class="container">
+        <h2>welcome to the world of photography</h2>
+        <h1>hello,I am Piyush Kumar</h1>
+        <h3>click to expand-></h3>
+    </div>
+    <br>;
+   
+</div>
+
+<div class="stock">
+    
+    <h2><br>here my some <spam style="color:red">capture</spam> pictures!! </h2>
+    <br>;<br>;
+    <div class="row">
+        <div class="column">
+            <img   src="images/dog.jpg">
+        </div>
+        <div class="column">
+            <img  src="images/sunset.jpg">
+        </div>
+        <div class="column">
+            <img src="images/fg.jpg">
+        </div>
+        <div class="column">
+            <img style="height:400px"  src="images/pk.jpg">
+        </div>
+        <div class="column">
+            <img src="images/spiral.jpg">
+        </div>
+        
+       
+       
+        
+    </div>
+    <a>here my some <spam style="color:red">edited</spam> pictures!!</a>
+    <br>; <br>; <br>;
+    <div class="row">
+    <div class="column">
+        <img src="images/pkkr-Recovered.jpg">
+    </div>
+    <div class="column">
+        <img src="images/pk22.jpg">
+    </div>
+  
+    <div class="column">
+        <img src="images/piyush.jpg">
+    </div>
+    <div class="column">
+        <img style="height:550px" src="images/op.jpg">
+    </div>
+    <div class="column">
+        <img style="height:550px" src="images/maa.jpg">
+    </div>
+    <div class="column">
+        <img style="height:550px" src="images/pk creation.jpg">
+    </div>
+    <div class="column">
+        <img src="images/lion__king.jpg">
+    </div>
+    <div class="column">
+        <img src="images/lion+cottage.jpg">
+    </div>
+    <div class="column">
+        <img src="images/br.jpg">
+    </div>
+</div>
+
+<span href="" class="explore">explore more</span>
+
+<p>follow me:</p>
+</div> 
+   
+
+</body>
+</html>
