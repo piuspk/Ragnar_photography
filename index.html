@@ -13,15 +13,28 @@
 <link rel="shortcut icon" type="image/png" href="images/camera-icon.png"/>
 
 <style>
+    *{
+        padding:0;
+        margin:0;
+    }
 .bg{
-    background:url('https://i.postimg.cc/TPSXKBTK/pg.jpg');
+    background:url('images/pg.jpg');
    
     background-size: cover;
     background-position: center;
-    height: 94vh;
+    height: 100vh;
     width: 100%;
    padding-top:3rem;
 
+}
+.stock{
+    background-color: rgb(0, 0, 0);
+   
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+   
 }
 .left{
     display:inline-block;
@@ -33,8 +46,8 @@
 .bottom{
     display:block;
     position:absolute;
-    bottom:-346rem;
-    right:10rem;
+    bottom:-350rem;
+    right:20rem;
     /* border:black 2rem solid; */
 }
 .bottom1{
@@ -206,7 +219,7 @@ h3{
     
     font-size:4.5rem;
     margin:45rem 0rem;
-    color:black;
+    color:rgb(255, 255, 255);
 }
 .column img:hover{
     transform: scale(1.05);
@@ -216,7 +229,7 @@ h3{
     font-size: 4.5rem;
     position:absolute;
     left:18.5rem;
-    color:black;
+    color:rgb(255, 255, 255);
     
     font-weight:bold;
     padding: 1rem 2rem;
@@ -242,13 +255,32 @@ h3{
 }
 .stock p{
     font-size:2.5rem;
-   
+     color:white;
     display:block;
-    padding-left: 110rem;
+    padding-left: 100rem;
     padding-top: 14.9rem;
     font-family:cursive;
     text-decoration: underline;
 }
+.side-right{
+    width:170px;
+    height:418vh;
+    background: black;
+    position: absolute;
+    right: 0;
+    top:87.5rem;
+
+}
+.side-left{
+    width:170px;
+    height:418vh;
+    background:black;
+    position: absolute;
+    left: 0;
+    top:87.5rem;
+
+}
+
 
 </style>
 <body>
@@ -300,8 +332,13 @@ h3{
 
 <div class="stock">
     
-    <h2><br>here my some <spam style="color:red">capture</spam> pictures!! </h2>
+    <h2><br><br>here my some <spam style="color:red">capture</spam> pictures!! </h2>
     <br>;<br>;
+    <div class="side-right">
+    </div>
+    <div class="side-left">
+    </div>
+   
     <div class="row">
         <div class="column">
             <img   src="images/dog.jpg">
